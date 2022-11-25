@@ -1,4 +1,4 @@
-/*#include <stdio.h>
+#include <stdio.h>/*
 void main(void)
 {
 	float base;
@@ -212,11 +212,13 @@ int main() {
 
 //scanf_s solo te guarda los caracteres hasta que detecte un espacio
 //gets_s te guarda caracteres aun cuando usas espacios, y solo necesita el nombre de la variable
+
+/*
 #include <stdio.h>
 //Para guarda una palabra en char se usa %c para un caracter, para una palabra se usa %s.
 // % s
 
-/*
+
 int main()
 {
 	char x[100];
