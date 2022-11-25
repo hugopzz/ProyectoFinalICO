@@ -215,6 +215,8 @@ int main() {
 #include <stdio.h>
 //Para guarda una palabra en char se usa %c para un caracter, para una palabra se usa %s.
 // % s
+
+/*
 int main()
 {
 	char x[100];
@@ -230,3 +232,5 @@ int main()
 	return 0;
 
 }
+
+*/
