@@ -237,7 +237,7 @@ int main()
 
 */
 
-
+/*
 void main(void)
 {
 	int a, b, c;
@@ -252,4 +252,8 @@ void main(void)
 	printf("EL valor de a, b, c es igual a: %i, %i, %i\n", a, b, c);
 	printf("El valor de a es: %i", a);
 
+
 }
+
+*/
+
