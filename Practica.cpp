@@ -236,3 +236,20 @@ int main()
 }
 
 */
+
+
+void main(void)
+{
+	int a, b, c;
+
+	a = b = c = 10;
+	a += 10;   // (a += 10) = (a = a + 10)
+	a -= 5;  // (a -= 5) = (a = a - 5)
+	a *= 2;  // (a *= 2) = (a = a * 2)
+	a /= 2;  // (a /= 2) = (a = a / 2)
+
+
+	printf("EL valor de a, b, c es igual a: %i, %i, %i\n", a, b, c);
+	printf("El valor de a es: %i", a);
+
+}
