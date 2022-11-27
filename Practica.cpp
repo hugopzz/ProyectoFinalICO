@@ -1,4 +1,6 @@
-#include <stdio.h>/*
+#include <stdio.h>
+#include <math.h> //Libreria Matematicas
+/*
 void main(void)
 {
 	float base;
@@ -306,9 +308,54 @@ void main(void)
 
 */
 
+//Problema 3: Sacar hipotenusa de un triangulo pidiendo los dos catetos
+
+/*
 void main(void)
 {
+	float ca;
+	float co;
+	float hip;
+
+	hip = 0;
+	
+	printf("Dame los valores del cateto opuesto: ");
+	scanf_s("%f", &co);
+
+	printf("Dame los valores del cateto adyacente: ");
+	scanf_s("%f", &ca);
+
+	hip = sqrt(pow(co, 2) + pow(ca, 2)); 
+	//Formula para sacar la Hipotenusa de un triangulo
+
+	printf("La hipotenusa es: %f", hip);
+
+
+
 
 }
 
+//Longitud de la Circunferencia 
+//Problema 3
+*/
+/*
+void main (void) 
+#define Pi 3.14159265
+{
+	float dm;
+	float p;
 
+	printf("Inserte el Valor del Diametro del Circulo: ");
+	scanf_s("%f", &dm);
+	
+	p = dm * Pi;
+
+	printf("La longitud de la Circunferencia es: %.3f", p);
+
+}
+*/
+
+void main (void)
+{
+
+}
