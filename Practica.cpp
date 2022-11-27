@@ -256,4 +256,59 @@ void main(void)
 }
 
 */
+ /*
+void main(void)
+
+{
+	float num1, num2, suma = 0, resta = 0, multi = 0, div = 0; 
+	//Siempre las variables que son para almacenar resultados se incializan en cero
+
+	printf("Digite 2 numeros: ");
+	scanf_s("%f %f", &num1, &num2);
+
+	suma = num1 + num2;
+	resta = num1 - num2;
+	multi = num1 * num2;
+	div = num1 / num2;
+
+	printf("La suma de los 2 digitos es: %.2f\n", suma);
+	printf("La resta de los 2 digitos es: %.2f\n", resta);
+	printf("La multiplicacion de los 2 digitos es: %.2f\n", multi);
+	printf("La division de los 2 digitos es: %.2f\n", div);
+
+}
+*/
+
+//Problema 2
+/*
+float far = 33.8;
+
+void main(void)
+
+{
+	float cel, cam;
+	cam = 0;
+
+	printf("Digite un numero en Grados Celsius: ");
+	scanf_s("%f", &cel);
+	//Antes de colocar una variable que almacene un valor, se debe 
+	solicitar primero el valor que se quiere almacenar
+	
+
+
+	cam = cel * far; 
+
+
+
+	printf("La temperatura en Farenheit es: %.4f", cam);
+
+}
+
+*/
+
+void main(void)
+{
+
+}
+
 
