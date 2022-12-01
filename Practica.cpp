@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <math.h> //Libreria Matematicas
+void main(void)
+
 /*
 void main(void)
 {
@@ -238,8 +240,8 @@ int main()
 }
 
 */
-
 /*
+
 void main(void)
 {
 	int a, b, c;
@@ -293,12 +295,12 @@ void main(void)
 
 	printf("Digite un numero en Grados Celsius: ");
 	scanf_s("%f", &cel);
-	//Antes de colocar una variable que almacene un valor, se debe 
+	//Antes de colocar una variable que almacene un valor, se debe
 	solicitar primero el valor que se quiere almacenar
-	
 
 
-	cam = cel * far; 
+
+	cam = cel * far;
 
 
 
@@ -318,14 +320,14 @@ void main(void)
 	float hip;
 
 	hip = 0;
-	
+
 	printf("Dame los valores del cateto opuesto: ");
 	scanf_s("%f", &co);
 
 	printf("Dame los valores del cateto adyacente: ");
 	scanf_s("%f", &ca);
 
-	hip = sqrt(pow(co, 2) + pow(ca, 2)); 
+	hip = sqrt(pow(co, 2) + pow(ca, 2));
 	//Formula para sacar la Hipotenusa de un triangulo
 
 	printf("La hipotenusa es: %f", hip);
@@ -335,11 +337,11 @@ void main(void)
 
 }
 
-//Longitud de la Circunferencia 
+//Longitud de la Circunferencia
 //Problema 3
 */
 /*
-void main (void) 
+void main (void)
 #define Pi 3.14159265
 {
 	float dm;
@@ -347,7 +349,7 @@ void main (void)
 
 	printf("Inserte el Valor del Diametro del Circulo: ");
 	scanf_s("%f", &dm);
-	
+
 	p = dm * Pi;
 
 	printf("La longitud de la Circunferencia es: %.3f", p);
@@ -355,7 +357,96 @@ void main (void)
 }
 */
 
+//Programa que calcule areas de trapecios.
+/*
 void main (void)
+{
+	int BaseMa;
+	int BaseMe;
+	int H;
+	int area;
+
+
+	printf("Coloque el valor de la Base Mayor: "); scanf_s("%i", &BaseMa);
+	printf("Coloque el valor de la Base Menor: "); scanf_s("%i", &BaseMe);
+	printf("Coloque el valor de la Altura: "); scanf_s("%i", &H);
+
+	area = ((BaseMa + BaseMe) * H) / 2;
+
+	printf("El area del Trapecio es: %i", area);
+
+}
+*/
+
+//Programa que calcule la media de 3 numeros
+
+/*
+{
+	float media;
+	float num1;
+	float num2;
+	float num3;
+
+
+	printf("Ingresa 1 numero: ");
+	scanf_s("%f", &num1 );
+	printf("Ingresa 1 numero: ");
+	scanf_s("%f", &num2 );
+	printf("Ingresa 1 numero: ");
+	scanf_s("%f", &num3);
+
+
+
+	media = (num1 + num2 + num3) / 3;
+
+	printf("La media de estos 3 numeros es: %.2f", media);
+}
+*/
+
+//Una tienda ofrece un descuento del 15% sobre el total de la compra y un cliente desea saber cuánto deberá pagar finalmente por su compra.
+/*
+{
+	float prod;
+	float desc;
+	float preciof;
+
+
+	printf("Precio del Producto: ");
+	scanf_s("%f", &prod);
+
+	desc = 0.85;
+	preciof = (desc * prod);
+
+	printf("El precio final del producto es: $%.2f ", preciof);
+
+
+}
+
+*/
+/*
+{
+	int HorasTra;
+	float Pago_Hora;
+	float Pago;
+
+
+	HorasTra = 0;
+
+
+	printf("Ingrese las Horas Trabajadas: ");
+	scanf_s("%i", &HorasTra);
+
+
+	Pago_Hora = 15.7;
+	Pago = (HorasTra * Pago_Hora);
+
+
+	printf("Tu pago del dia de hoy es: %.2f", Pago);
+}
+
+*/
+
+
 {
 
 }
