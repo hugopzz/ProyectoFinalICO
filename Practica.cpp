@@ -642,6 +642,8 @@ void main (void)
 
 //Calcular el mayor de dos números leídos del teclado y visualizarlo en pantalla.
 
+/*
+
 {
 	float num1;
 	float num2;
@@ -663,3 +665,29 @@ void main (void)
 
 
 }
+
+*/
+//Ingrese un número y calcule e imprima su raíz cuadrada. Si el numero es negativo imprima el número y un mensaje que diga “tiene raíz imaginaria”
+
+/*
+
+{
+	int num;
+	float raiz_cuadrado;
+	
+	printf("Digite un numero: "); 
+	scanf_s("%i", &num);
+
+	if (num > 0) {
+		raiz_cuadrado = pow(num, 0.5);
+		printf("La Raiz Cuadrado del Numero Digitado es: %.2f", raiz_cuadrado);
+	}
+	else {
+		printf("El Numero tiene Raiz Imaginaria");
+	}
+
+
+}
+
+*/
+
