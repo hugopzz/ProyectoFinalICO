@@ -445,8 +445,221 @@ void main (void)
 }
 
 */
+// Calcular el nuevo salario de un obrero si obtuvo un incremento del 25% sobre su salario anterior.
+/*
+{
 
+	float SueldoAct;
+	float Aumento;
+	float PagoFin;
+	float SueldoFin;
+
+
+	printf("Ingresa tu sueldo Actual: ");
+	scanf_s("%f", &SueldoAct);
+
+	Aumento = 0.25;
+	PagoFin = (SueldoAct * Aumento);
+	SueldoFin = (SueldoAct + PagoFin);
+
+	printf("Tu sueldo mas el 25 por ciento es: $%.2f", SueldoFin);
+
+}
+
+*/
+
+
+//Un alumno desea saber cuál será su calificación final en la materia de Algoritmos. Dicha calificación se compone de los siguientes porcentajes:
+
+/*
 
 {
+
+
+	float Par1;
+	float Par2;
+	float Par3;
+	float Prom;
+	float Prom2;
+	float ExaFin;
+	float ExaFin2;
+	float ProFin;
+	float ProFin2;
+	float CalifFin;
+
+
+	printf("Ingrese la Calificacion de su primer Parcial: ");
+	scanf_s("%f", &Par1);
+	printf("Ingrese la Calificacion de su segundo Parcial: ");
+	scanf_s("%f", &Par2);
+	printf("Ingrese la Calificacion de su tercer Parcial: ");
+	scanf_s("%f", &Par3);
+
+
+	printf("Ingrese su Calificacion en el Examen Final: ");
+	scanf_s("%f", &ExaFin);
+	printf("Ingrese su Calificacion en el Trabajo Final: ");
+	scanf_s("%f", &ProFin);
+
+
+
+	Prom = (Par1 + Par2 + Par3) / 3;
+	Prom2 = (Prom * 55) / 100;
+	ExaFin2 = (ExaFin * 25) / 100;
+	ProFin2 = (ProFin * 15) / 100;
+
+
+
+	CalifFin = Prom2 + ExaFin2 + ProFin2;
+
+	printf("Tu Calificacion Final es: %.2f", CalifFin);
+
+}
+
+
+
+*/
+
+
+//Sentencia If
+
+//Prueba de Divisibilidad
+/*
+{
+	int n1, n2;
+
+	printf("Digite un Numero: ");
+	scanf_s("%i", &n1);
+	printf("Digite un Segundo Numero: ");
+	scanf_s("%i", &n2);
+
+	if (n1 % n2 == 0) {
+		printf("El Numero %i es divisible entre el numero %i", n1, n2);
+	}
+	else {
+		printf("El Numero no es Divisible");
+	}
+}
+*/
+
+//Sentencia If
+//Reprobado o Aprobado
+
+/*
+{
+	float calif;
+
+	printf("Digite la nota que saco en el Curso: "); scanf_s("%f", &calif);
+
+	if (calif >= 6) {
+		printf("Usted esta Aprobado");
+	}
+
+
+
+
+
+
+}
+
+*/
+
+//Ejercicio
+/*
+{
+	float num;
+	float neg;
+	float pos;
+
+	printf("Digite un numero: ");
+	scanf_s("%f", &num);
+
+
+	if (num < 0) {
+		printf("El numero es Negativo: ");
+	}
+	else {
+		printf("El numero es Positivo");
+	}
+
+
+
+}
+
+*/
+
+//Ejercicio 3: Visualizar la tarifa de la luz según el gasto de corriente eléctrica. 
+//Para un gasto menor de 1.000Kwxh la tarifa es 1.2, entre 1.OOOy 1.850Kwxh es 1.0 y mayor de 1.85OKwxh 0.9.
+
+/*
+
+#define Tarifa1 1.2
+#define Tarifa2 1.0
+#define Tarifa3 0.9
+
+{
+	float gasto, tasa;
+
+	printf("Gasto de Energia en kwxk: ");
+	scanf_s("%f", &gasto);
+
+	if (gasto < 1000) {
+		tasa = Tarifa1;
+	}
+	if (gasto > 1000 && gasto < 1850) {
+		tasa = Tarifa2;
+	}
+	if (gasto > 1850) {
+		tasa = Tarifa3;
+	}
+
+	printf("La tarifa sera tomada como: %.1f", tasa);
+}
+
+
+//else - if
+
+*/
+
+/*
+
+{
+	float calif;
+
+	printf("Digita tu calificacion: ");
+	scanf_s("%f", &calif);
+
+	if (calif < 6) {
+		printf("Estas Reprobado");
+	}
+	else{
+		printf("Estas Aprobado");
+	}
+
+}
+
+*/
+
+//Calcular el mayor de dos números leídos del teclado y visualizarlo en pantalla.
+
+{
+	float num1;
+	float num2;
+
+	printf("Digita tu primer numero: ");
+	scanf_s("%f", &num1);
+	printf("Digita tu segundo numero: ");
+	scanf_s("%f", &num2);
+
+	if (num1 > num2) {
+		printf("El Primer numero es el mayor: %.2f", num1);
+	}
+	else if (num2 > num1) {
+			printf("El Segundo numero es el mayor: %.2f", num2);
+		}
+		else {
+		printf("Ambos Numeros son Iguales %.2f, %.2f", num1, num2);
+		}
+
 
 }
